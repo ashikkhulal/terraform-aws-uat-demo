@@ -21,5 +21,5 @@ module "common" {
   redis-nodes    = 2
   ssh-keys = [
   data.digitalocean_ssh_key.demo.id]
-  domain = "uat.ashikkhulal.com"
+  domain = "uat.yourwebsite.com"
 }
