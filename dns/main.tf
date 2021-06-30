@@ -2,6 +2,6 @@ provider "digitalocean" {
   token = var.do_token
 }
 
-resource "digitalocean_domain" "ashikkhulal-com" {
-  name = "ashikkhulal.com"
+resource "digitalocean_domain" "yourwebsite-com" {
+  name = "yourwebsite.com"
 }
